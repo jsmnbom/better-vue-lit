@@ -1,0 +1,38 @@
+{
+  "name": "better-vue-lit",
+  "version": "0.1.0",
+  "description": "Create Web Components using @vue/reactivity and lit-html",
+  "author": "Jasmin Bom",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/better-vue-lit.js",
+  "exports": {
+    ".": {
+      "import": "./dist/better-vue-lit.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmnbom/better-vue-lit.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@vue/shared": "^3.2.47",
+    "@vue/reactivity": "^3.2.47",
+    "lit-html": "^2.7.3"
+  }
+}

@@ -1,8 +1,13 @@
 {
-  "name": "@vue/lit",
-  "version": "0.0.2",
-  "description": "proof of concept custom elements framework powered by @vue/reactivity + lit-html",
+  "name": "better-vue-lit",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Create Web Components using @vue/reactivity and lit-html",
   "main": "index.js",
-  "author": "Evan You",
-  "license": "MIT"
+  "author": "Jasmin Bom",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run -r build"
+  }
 }
